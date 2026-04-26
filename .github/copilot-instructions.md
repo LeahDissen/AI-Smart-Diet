@@ -15,3 +15,9 @@
 ## Style Guide
 - Naming: PascalCase for components, camelCase for functions.
 - Modern Patterns: Use Functional Components and Tailwind utility classes.
+
+## Backend & Logic Rules
+1. Server Actions: Use Next.js Server Actions ('use server') for all data mutations and AI calls.
+2. Validation: Always use 'Zod' for input validation before processing data.
+3. Error Handling: Wrap logic in try-catch blocks and return structured error objects.
+4. Security: Never expose API keys to the client.
